@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background:url(img.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    min-width: 420px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    background-image: linear-gradient(1deg, #00000000, #000000a1);
+    backdrop-filter: blur(15px);
+    padding: 40px 30px;
+    border-radius: 20px;
+}
+.main h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+#email {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    outline: none;
+    border:2px solid rgba(255, 255, 255, 0.075);
+    padding-left: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #FFF;
+}
+#email::placeholder {
+    font-size: 15px;
+    color: #ffffff94;
+}
+.btn {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    background:transparent;
+    background-image: linear-gradient(25deg, #2600fc, #77006d);
+    color: #fff;
+    box-shadow: 0 0 10px rgb(00, 00, 00, 0.1);
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn:hover {
+    background-image: linear-gradient(25deg, #100069, #8a037e);
+}
+.main .tryanother {
+    font-size: 11px;
+    padding-left: 10px;
+}
+.tryanother a {
+    text-decoration: none;
+    color: #ffffffd7;
+}
+.tryanother a:hover{
+    text-decoration: underline;
+}
+.main .login {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 11px;
+    padding-left: 10px;
+    color: #ffffffc7;
+}
+.login p a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+}
+.login p a:hover{
+    text-decoration: underline;
+}
